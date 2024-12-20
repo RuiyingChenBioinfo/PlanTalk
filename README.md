@@ -2,7 +2,7 @@
 
 <img src="https://github.com/RuiyingChenBioinfo/PlanTalk/blob/main/imgs/PlanTalk.logo.png" align="right" width="160" height="180">
 
-## Cell-cell Communication Analysis Tool for Plants
+**Cell-cell Communication Analysis Tool for Plants**
 
 The R package PlanTalk is designed to quantify the cell-cell communication intensity using spatial information, provide elegant visualization of inferred ligand-receptor pairs, and infer receptor-activated pathways in single-cell RNA sequencing (scRNA-seq) data in plants.
 
@@ -11,7 +11,7 @@ The R package PlanTalk is designed to quantify the cell-cell communication inten
 
 # Tutorial
 
-## Inputs
+**Inputs**
 
 When using this software, you need to prepare the input files as required, including three parts: the ligand-receptor pair database, the processed scRNA-seq data with Seurat structures, the pathway-related information of the corresponding species, and spatial information of corresponding plant tissues (optional). 
 
