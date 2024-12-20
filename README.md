@@ -23,14 +23,20 @@ The database should contain ligand and receptor information respectively in the 
 
 The pathway information should contain gene identifiers (consistent with the gene format in the Seurat data input), pathway number, pathway type and pathway description.
 
-The ligand-receptor databases (for input file 1) modified from PlantPhoneDB, GO (Gene Ontology) information and KEGG (Kyoto Encyclopedia of Genes and Genomes) information (for input file 2) of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk. In the future we will add more built-in databases for different species.
+The ligand-receptor databases (for input file 1) modified from PlantPhoneDB, GO (Gene Ontology) information and KEGG (Kyoto Encyclopedia of Genes and Genomes) information (for input file 2) of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
+
+In the future we will add more built-in databases for different species.
 
 **3. Gene list representing plasmodesmata strength (optional)**
 
-This file should be a one-column file with no row names and no column header. The plasmodesmata gene lists of *Arabidopsis thaliana* and its homologues in *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
+This file should be a one-column file with no row names and no column header.
+
+The plasmodesmata gene lists of *Arabidopsis thaliana* and its homologues in *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
 
 **4. Spatial information of corresponding plant tissues (optional)**
 
 The spatial information should be in data frame format, similar to ggPlantmap (https://github.com/leonardojo/ggPlantmap) provided examples.
 
-PlanTalk currently contains built-in spatial information of longitudinal root tips of *Arabidopsis thaliana*, cross section roots of *Arabidopsis thaliana* and *Solanum lycopersicum*, and shoot apical meristems of *Arabidopsis thaliana*. If you wish to use custom spatial information, you can first follow the ggPlantmap workflows to process your original image, and then transform the outputs to data frame formats.
+PlanTalk currently contains built-in spatial information of longitudinal root tips of *Arabidopsis thaliana*, cross section roots of *Arabidopsis thaliana* and *Solanum lycopersicum*, and shoot apical meristems of *Arabidopsis thaliana*. 
+
+If you wish to use custom spatial information, you can first follow the ggPlantmap workflows to process your original image, and then transform the outputs to data frame formats.
