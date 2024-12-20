@@ -29,7 +29,7 @@ Please make sure you have run normalization procedures such as "NormalizeData" a
 
 The pathway information should contain gene identifiers (consistent with the gene format in the Seurat data input), pathway number, pathway type and pathway description.
 
-GO (Gene Ontology) information and KEGG (Kyoto Encyclopedia of Genes and Genomes) information (for input file 2) of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
+GO (Gene Ontology) information and KEGG (Kyoto Encyclopedia of Genes and Genomes) information of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
 
 In the future we will add more built-in databases for different species.
 
