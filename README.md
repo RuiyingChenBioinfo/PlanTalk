@@ -31,7 +31,7 @@ In the future we will add more built-in databases for different species.
 
 **3. Gene list representing plasmodesmata strength (optional)**
 
-This file should be a one-column file with no row names and no column header.
+This file should be a one-column file of gene identifiers  (consistent with the gene format in the Seurat data input) with no row names and no column header.
 
 The plasmodesmata gene lists of *Arabidopsis thaliana* and its homologs in *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
 
