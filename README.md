@@ -15,6 +15,7 @@ The R package PlanTalk is designed to quantify the cell-cell communication inten
 
 When using this software, you need to prepare the input files as required, including three parts: the ligand-receptor pair database, the processed scRNA-seq data with Seurat structures, the pathway-related information of the corresponding species, and spatial information of corresponding plant tissues (optional). 
 
+
 **1. The ligand-receptor pair database**
 
 The database should contain ligand and receptor information respectively in the "Ligands" and "Receptors" columns of the R data frame. 
