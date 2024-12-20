@@ -17,13 +17,15 @@ When using this software, you need to prepare the input files as required, inclu
 
 **1. The ligand-receptor pair database**
 
-The database should contain ligand and receptor information respectively in the "Ligands" and "Receptors" columns of the R data frame. If you are using the PlantPhoneDB (https://jasonxu.shinyapps.io/PlantPhoneDB/) database, we suggest removing out the ligand-receptor pairs from the "homolog" source, since the orthologs were obtained only from human orthologs and are without experimental validations, making many inferred receptor-ligand pairs unreliable.
+The database should contain ligand and receptor information respectively in the "Ligands" and "Receptors" columns of the R data frame. 
+
+If you are using the PlantPhoneDB (https://jasonxu.shinyapps.io/PlantPhoneDB/) database, we suggest removing out the ligand-receptor pairs from the "homolog" source, since the orthologs were obtained only from human orthologs and are without experimental validations, making many inferred receptor-ligand pairs unreliable. The ligand-receptor databases modified from PlantPhoneDB of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
 
 **2. The pathway information**
 
 The pathway information should contain gene identifiers (consistent with the gene format in the Seurat data input), pathway number, pathway type and pathway description.
 
-The ligand-receptor databases (for input file 1) modified from PlantPhoneDB, GO (Gene Ontology) information and KEGG (Kyoto Encyclopedia of Genes and Genomes) information (for input file 2) of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
+GO (Gene Ontology) information and KEGG (Kyoto Encyclopedia of Genes and Genomes) information (for input file 2) of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
 
 In the future we will add more built-in databases for different species.
 
@@ -31,7 +33,7 @@ In the future we will add more built-in databases for different species.
 
 This file should be a one-column file with no row names and no column header.
 
-The plasmodesmata gene lists of *Arabidopsis thaliana* and its homologues in *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
+The plasmodesmata gene lists of *Arabidopsis thaliana* and its homologs in *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
 
 **4. Spatial information of corresponding plant tissues (optional)**
 
