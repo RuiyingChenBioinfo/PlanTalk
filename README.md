@@ -23,7 +23,7 @@ If you are using the PlantPhoneDB (https://jasonxu.shinyapps.io/PlantPhoneDB/) d
 
 The gene expression levels of processed Seurat data should be noramlaized.
 
-Please make sure you have run normalization procedures such as NormalizeData() and sctransform() so that PlanTalk can extract the normalized counts respective assays.
+Please make sure you have run normalization procedures such as NormalizeData() and sctransform() so that PlanTalk can extract the normalized counts in respective assays.
 
 **3. The pathway information**
 
