@@ -17,7 +17,7 @@ When using this software, you need to prepare the input files as required, inclu
 
 The database should contain ligand and receptor information respectively in the "Ligands" and "Receptors" columns of the R data frame. 
 
-If you are using the PlantPhoneDB (https://jasonxu.shinyapps.io/PlantPhoneDB/) database, we suggest removing out the ligand-receptor pairs from the "homolog" source, since the orthologs were obtained only from human orthologs and are without experimental validations, making many inferred receptor-ligand pairs unreliable. The ligand-receptor databases modified from PlantPhoneDB of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
+If you are using the PlantPhoneDB (https://jasonxu.shinyapps.io/PlantPhoneDB/) database, we suggest removing out the ligand-receptor pairs from the "homolog" source which are obtained only from human orthologs and are without experimental validations, making many inferred receptor-ligand pairs unreliable. The ligand-receptor databases modified from PlantPhoneDB of *Arabidopsis thaliana* and *Solanum lycopersicum* have been configured and can be used directly in PlanTalk.
 
 **2.The processed scRNA-seq data with Seurat structures**
 
