@@ -6,8 +6,8 @@
 
 The strictly revised PlantPhoneDB databases for *Arabidopsis thaliana* (LR_pair_strictlyrevised.At.PlantPhoneDB.csv) and *Solanum lycopersicum* (LR_pair_strictlyrevised.Sl.PlantPhoneDB.csv) were used for PlanTalk inputs.
 
-### For plasmadesmata representative gene sets:
-We collected a plasmadesmata representative gene set for *Arabidopsis thaliana* (Arabidopsis_thaliana_PDlist.csv) from published literatures and GO databases. The plasmadesmata representative gene set for *Solanum lycopersicum* (Solanum_lycopersicum_PDlist.csv) was obtained from *Arabidopsis thaliana* homologs.
+### For plasmodesmata representative gene sets:
+We collected a plasmodesmata representative gene set for *Arabidopsis thaliana* (Arabidopsis_thaliana_PDlist.csv) from published literatures and GO databases. The plasmodesmata representative gene set for *Solanum lycopersicum* (Solanum_lycopersicum_PDlist.csv) was obtained from *Arabidopsis thaliana* homologs.
 
 ### Author contribution: 
 R.C. collected GO information, KEGG information, and plasmadesmata representative gene set of *Arabidopsis thaliana*. S.H. collected GO and KEGG information of *Solanum lycopersicum*. S.H. also transformed the *Arabidopsis thaliana* genes to its *Solanum lycopersicum* homologs.
